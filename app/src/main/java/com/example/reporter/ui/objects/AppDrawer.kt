@@ -76,12 +76,12 @@ class AppDrawer {
                     .withIcon(R.drawable.ic_menu_create_groups),
                 PrimaryDrawerItem().withIdentifier(101)
                     .withIconTintingEnabled(true)
-                    .withName("Карты")
+                    .withName("Сообщить о поломке")
                     .withSelectable(false)
-                    .withIcon(R.drawable.ic_menu_secret_chat),
+                    .withIcon(R.drawable.ic_baseline_error_24),
                 PrimaryDrawerItem().withIdentifier(102)
                     .withIconTintingEnabled(true)
-                    .withName("Умный бот")
+                    .withName("Сообщить о починке")
                     .withSelectable(false)
                     .withIcon(R.drawable.ic_menu_create_channel),
                 PrimaryDrawerItem().withIdentifier(103)
@@ -91,12 +91,12 @@ class AppDrawer {
                     .withIcon(R.drawable.ic_menu_contacts),
                 PrimaryDrawerItem().withIdentifier(104)
                     .withIconTintingEnabled(true)
-                    .withName("Лента вакансий")
+                    .withName("Список неисправностей")
                     .withSelectable(false)
-                    .withIcon(R.drawable.ic_menu_phone),
+                    .withIcon(R.drawable.ic_baseline_list_alt_24),
                 PrimaryDrawerItem().withIdentifier(105)
                     .withIconTintingEnabled(true)
-                    .withName("Тесты")
+                    .withName("Контроль датчиков")
                     .withSelectable(false)
                     .withIcon(R.drawable.ic_menu_favorites),
                 PrimaryDrawerItem().withIdentifier(106)
